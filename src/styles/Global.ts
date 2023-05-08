@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import { colors } from "./variables";
+import { colors, font } from "./variables";
 
 export const GlobalStyled = createGlobalStyle`
   *{
@@ -11,5 +11,10 @@ export const GlobalStyled = createGlobalStyle`
   body {
     background-color: ${colors.gray1};
     color: ${colors.gray7};
+    font-family: ${font.default};
+
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
   }
 `
