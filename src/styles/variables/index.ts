@@ -1,8 +1,9 @@
 export const colors = {
   blue:'#089AEE',
 
-  red: '#F03847',
-  red_dark: '#7A1921',
+  red: '#df1f4e',
+  red_warning: '#F03847',
+  red_warning_dark: '#7A1921',
 
   gray1: '#121214',
   gray2: '#202024',
