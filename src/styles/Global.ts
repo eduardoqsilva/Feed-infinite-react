@@ -16,5 +16,11 @@ export const GlobalStyled = createGlobalStyle`
     display: flex;
     justify-content: center;
     padding: 1.5rem;
+
+    & > #root {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
   }
 `
