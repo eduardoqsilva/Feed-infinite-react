@@ -75,7 +75,7 @@ function App() {
           : ''
       }
       {skip >= 100 ?
-        <h4 style={{ textAlign: 'center' }}>Sem mais posts, volte mais tarde!</h4>
+        <h4 style={{ textAlign: 'center' }}>Não há mais nada pra ver aqui!</h4>
         : <Loading
           load={isFetchingPosts === true && isFetchingUsers ===
             true ? true : false
